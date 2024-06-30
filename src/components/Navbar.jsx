@@ -1,9 +1,9 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome ,faWandMagicSparkles, faUser, faScrewdriverWrench, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faHome , faCode, faUser, faCogs, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = ({onNavClick}) =>{
     const list = [{id: 0, name:'Home'}, {id: 1, name:'About'}, {id: 2, name:'Skills'}, {id: 3, name:'Project'}, {id: 4, name:'Contact'}];
-    const icons = [faHome, faUser, faWandMagicSparkles, faScrewdriverWrench, faPhone];
+    const icons = [faHome, faUser, faCode, faCogs, faPhone];
     return(
       <>
       <div className='NavBar'>
