@@ -181,7 +181,8 @@
     blink-caret .5s step-end infinite;
 }
 
-.typewrite > .wrap {
+.typewrite > span{
+  display: inline;
   border-right: 0.08em solid #fff;
   background-color: #355063;
 }
@@ -528,7 +529,7 @@
   display: block;
   cursor: pointer;
   transition: 0.5s;
-  
+
 }
 
 .Contact-form button:hover{

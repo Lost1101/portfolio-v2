@@ -33,9 +33,9 @@ const Typewriter = ({ texts, period }) => {
   }, [text, isDeleting, delta, loopNum, texts, period]);
 
   return (
-    <a className="typewrite">
+    <p className="typewrite">
       <span className="wrap">{text}</span>
-    </a>
+    </p>
   );
 };
 
