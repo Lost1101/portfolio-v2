@@ -1,0 +1,234 @@
+@media only screen and (min-width: 1361px) {
+  .App{
+    height: full;
+  }
+
+    .loading-gif {
+    width: 450px;
+    height: 450px;
+    }
+
+  .NavBar button{
+    padding: 30px;
+    font-size: 20px;
+  }
+
+  .SideBar{
+    top: 40%;
+  }
+
+  .SideBar a{
+    font-size: 16px;
+  }
+
+  .SideBar span{
+    font-size: 28px;
+  }
+
+  .Footer{
+    font-size: 20px;
+  }
+
+  .Home{
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .Home-img{
+    width: 800px;
+    height: 800px;
+  }
+
+  .Intro{
+    margin-top: 80px;
+  }
+
+  .Intro1{
+    font-size: 100px;
+  }
+
+  .Intro2{
+    font-size: 80px;
+  }
+
+  .Intro3{
+    font-size: 100px;
+  }
+
+  .Home-Text{
+    font-size: 24px;
+  }
+
+  .Home-Button{
+    margin-top: 28px;
+    font-size: 24px;
+  }
+
+  .modal-main button{
+    font-size: 32px;
+  }
+
+  .modal-main{
+    padding: 60px;
+  }
+
+  .modal-img{
+    width: 680px;
+  }
+
+  .About{
+    padding: 30px;
+  }
+
+  .About h1{
+    font-size: 60px;
+  }
+
+  .About-imgcontainer{
+    padding: 20px;
+  }
+
+  .About-imgcontainer{
+    font-size: 18px;
+  }
+
+  .About-img{
+    width: 270px;
+  }
+
+  .About-img:hover{
+    width: 290px;
+  }
+
+  .About-buttonimg button{
+    padding: 10px;
+  }
+
+  .About-text{
+    padding: 30px;
+  }
+
+  .About-text1{
+    font-size: 40px;
+    width: 60%;
+  }
+
+  .About-text2{
+    font-size: 20px;
+  }
+
+  .Skills{
+    margin-top: 41px;
+    margin-bottom: 41px;
+    padding: 30px;
+  }
+
+  .Skills h1{
+    font-size: 60px;
+  }
+
+  .Skills-text{
+    padding: 30px;
+  }
+
+  .Skills-text1{
+    font-size: 40px;
+  }
+
+  .Skills-text2{
+    margin-top: 30px;
+    font-size: 20px;
+  }
+
+  .Card-container{
+    width: 500px;
+  }
+
+  .Card-container h2{
+    font-size: 30px;
+  }
+
+  .Card{
+    width: 80px;
+    height: 80px;
+  }
+
+  .Card i{
+    font-size: 50px;
+  }
+
+  .Card p{
+    font-size: 16px;
+  }
+
+  .Project{
+    padding: 30px;
+  }
+
+  .Project h1{
+    font-size: 60px;
+  }
+
+  .Project-container{
+    padding: 20px;
+  }
+
+  .Project-card{
+    border-radius: 20px;
+    width: 400px;
+    height: 470px;
+    margin: 30px;
+  }
+
+  .Project-card img{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  .Project-text{
+    padding:20px;
+  }
+
+  .Project-text a{
+    font-size: 32px;
+  }
+
+  .Project-text p{
+    font-size: 20px;
+  }
+
+  .Contact{
+    padding: 30px;
+  }
+
+  .Contact h1{
+    font-size: 60px;
+  }
+
+  .Contact p{
+    font-size: 40px;
+  }
+
+  .Contact-form form{
+    width: 900px;
+  }
+
+  .Contact-form label{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 32px;
+  }
+
+  .Contact-form input, textarea{
+    width: 880px;
+    font-size: 32px;
+  }
+
+  .Contact-form button{
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 32px;
+    border-radius: 10px;
+  }
+}

@@ -1,0 +1,217 @@
+@media only screen and (max-width: 620px){
+  .App{
+    padding: 0;
+  }
+
+  .loading-container{
+    height: 90vh;
+  }
+
+  .loading-gif {
+    width: 100px;
+    height: 100px;
+  }
+
+  .NavBar{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+  }
+
+  .NavBar button{
+    padding: 10px;
+  }
+
+  .FaIcon{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5px;
+  }
+
+  .SideBar{
+    display: none;
+  }
+
+  .Footer{
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .Footer-socmed{
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .Footer-socmed ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+
+  .Footer-socmed a{
+    font-size: 24px;
+    padding: 10px;
+    color: #DFD0B8;
+  }
+
+  .Home{
+    padding-top: 50px;
+    display: block;
+    margin: 0;
+  }
+
+  .Home-img{
+    margin-top: 20px;
+    margin-left: 5px;
+    width: 350px;
+    height: 350px;
+  }
+
+  .Intro{
+    width: 85%;
+    padding: 5px 20px 20px 20px;
+    margin-top: 0px;
+  }
+
+  .Intro1{
+    font-size: 60px;
+  }
+
+  .Intro2{
+    font-size: 36px;
+  }
+
+  .Intro3{
+    font-size: 60px;
+    text-wrap: wrap;
+    width: 95%;
+  }
+
+  .Home-Text{
+    font-size: 18px;
+  }
+
+  .typewrite{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .Home-Button{
+    font-size: 18px;
+    padding: 12px;
+  }
+
+  .modal-img{
+    width: 250px;
+  }
+
+  .About{
+    padding-top: 60px;
+  }
+
+  .About-imgcontainer{
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .About-img{
+    width: 100px;
+  }
+
+  .About-img:hover{
+    width: 120px;
+  }
+
+  .About-text{
+    display: block;
+    width: 75%;
+  }
+
+  .About-text1{
+    width: 100%;
+    border: none;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .About-text2{
+    border-left: 6px solid #3C5B6F;
+    padding-left: 10px;
+    font-size: 14px;
+  }
+
+  .Skills{
+    padding-top: 60px;
+  }
+
+  .Skills-text{
+    flex-wrap: wrap-reverse;
+  }
+
+  .Skills-text1{
+    width: 100%;
+    border: none;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .Skills-text2{
+    border-left: 6px solid #3C5B6F;
+    padding-left: 10px;
+    font-size: 14px;
+  }
+
+  .Card-base{
+    padding: 5px;
+  }
+
+  .Card-container h2{
+    font-size: 16px;
+  }
+
+  .Card{
+    width: 45px;
+    height: 45px;
+  }
+
+  .Card i{
+    font-size: 28px;
+  }
+
+  .Card p{
+    font-size: 9px;
+  }
+
+  .Project{
+    padding-top: 60px;
+  }
+
+  .Project-card{
+    height: 330px;
+  }
+
+  .Project-card{
+    height: 320px;
+  }
+
+  .Project-text p{
+    font-size: 14px;
+  }
+
+  .Contact{
+    padding-top: 60px;
+  }
+
+  .Contact-form form{
+    width: 300px;
+  }
+
+  .Contact p{
+    margin: 20px;
+  }
+
+  .Contact-form input, textarea{
+    width: 280px;
+  }
+}

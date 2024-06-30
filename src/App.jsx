@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
+import './App-Desktop.css';
+import './App-Mobile.css';
 import Contact from './components/Contact';
 import Project from './components/Project'
 import Skills from './components/Skills';

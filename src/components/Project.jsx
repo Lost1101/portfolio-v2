@@ -4,6 +4,7 @@ import proj3 from './img/proj3.png';
 import proj4 from './img/proj4.png';
 import proj5 from './img/proj5.png';
 import proj6 from './img/proj6.png';
+import proj7 from './img/proj7.png';
 
 const Project = () => {
     const image = [
@@ -12,7 +13,8 @@ const Project = () => {
         {id: 17, img:proj3, name:'Kurban Game (2023)', desc:'JavaScript-based game using RPG Maker MV', url:'https://kurban-game-v1.vercel.app/'},
         {id: 18, img:proj4, name:'Image Encryption', desc:'Collab work, image encryption using AES-CBC mode and Double Steganography', url:'https://github.com/Lost1101/Image-Encryption-v.01'},
         {id: 19, img:proj5, name:'Wedding RSVP', desc:'Wedding RSVP web for my cousin, using TailwindCSS', url:'https://github.com/Lost1101/undangan_w-k'},
-        {id: 20, img:proj6, name:'Portfoliov1', desc:'My previous portfolio version, using TailwindCSS', url:'https://github.com/Lost1101/Portfoliov1'}
+        {id: 20, img:proj6, name:'Portfoliov1', desc:'My previous portfolio version, using TailwindCSS', url:'https://github.com/Lost1101/Portfoliov1'},
+        {id: 21, img:proj7, name:'HM Parody', desc:'Harvest Moon Parody with kearifan lokal lol, using RPG Maker MV', url:'https://drive.google.com/file/d/1CmQE1EInzO4E0-qu_EfqLKzMBWiprJVk/view?usp=sharing'}
     ]
     return(
         <>

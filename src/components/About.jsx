@@ -55,7 +55,7 @@ const About = () =>{
                         ))}
                     </div>
                     <Modal show={show} handleClose={hideModal}>
-                        {currentImg && <img src={currentImg} alt="pict" width={550}/>}
+                        {currentImg && <img src={currentImg} alt="pict" className='modal-img'/>}
                     </Modal>
                     <p>You can view more on my <span><a href="https://instagram.com/lost_5311">Instagram</a></span> here</p>
                 </div>

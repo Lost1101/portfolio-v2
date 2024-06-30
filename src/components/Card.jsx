@@ -29,7 +29,8 @@ const Card = () =>{
         {id:23, class:'canva-original', category:'Design', name:'Canva'},
         {id:24, class:'github-original', category:'Collab', name:'Github'},
         {id:25, class:'tailwindcss-original', category:'FE', name:'Tailwind'},
-        {id:26, class:'bootstrap-plain', category:'FE', name:'Bootstrap'}
+        {id:26, class:'bootstrap-plain', category:'FE', name:'Bootstrap'},
+        {id:27, class:'figma-plain', category:'Design', name:'Figma'}
     ]
     return(
         <>

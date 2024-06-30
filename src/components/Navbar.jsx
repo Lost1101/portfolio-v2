@@ -11,7 +11,7 @@ const Navbar = ({onNavClick}) =>{
           {list.map((link, i) => (
           <a id='link' href={'#' + link.name} key={link.id}>
             <li className='Link'>
-              <button onClick={() => onNavClick(link.name)}><FontAwesomeIcon icon={icons[i]} /> {link.name}</button>
+              <button onClick={() => onNavClick(link.name)}><FontAwesomeIcon icon={icons[i]} className='FaIcon'/> {link.name}</button>
             </li>
           </a>
           ))}
