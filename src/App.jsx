@@ -1,11 +1,12 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { CSSTransition, TransitionGroup } from 'react-transition-group';
+import React, { useState, useEffect } from 'react';
 import './App.css';
-import Skills from './components/Skils';
-import Navbar from './components/Navbar'
+import Contact from './components/Contact';
+import Project from './components/Project'
+import Skills from './components/Skills';
+import Navbar from './components/Navbar';
 import About from './components/About';
-import Home from './components/Home'
-import Footer from './components/Footer'
+import Home from './components/Home';
+import Footer from './components/Footer';
 import SideBar from './components/Sidebar';
 import Loader from './components/Loader';
 
@@ -32,10 +33,10 @@ const App = () => {
         return <About/>;
       case 'Skills':
         return <Skills />;
-      /*case 'Projects':
-        return <Projects />;
+      case 'Project':
+        return <Project/>
       case 'Contact':
-        return <Contact />;*/
+        return <Contact />;
       default:
         return <Home/>;
     }

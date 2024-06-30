@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse ,faWandMagicSparkles, faUser, faScrewdriverWrench, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = ({onNavClick}) =>{
-    const list = [{id: 0, name:'Home'}, {id: 1, name:'About'}, {id: 2, name:'Skills'}, {id: 3, name:'Projects'}, {id: 4, name:'Contact'}];
+    const list = [{id: 0, name:'Home'}, {id: 1, name:'About'}, {id: 2, name:'Skills'}, {id: 3, name:'Project'}, {id: 4, name:'Contact'}];
     const icons = [faHouse, faUser, faWandMagicSparkles, faScrewdriverWrench, faPhone];
     return(
       <>

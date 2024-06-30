@@ -1,18 +1,15 @@
 @import "~devicon/devicon.min.css";
 
-@keyframes taadaa { 
-  0% {
-      opacity: 0;
-  }
 
-  50%{
-      opacity: 1;
-  }
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
 
-  100% {
-      opacity: 0;
-  }
-  }
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white }
+}
 
 /*App*/
 .App{
@@ -153,9 +150,10 @@
 }
 
 .Intro{
+  text-align: left;
   margin-top: 20px;
   padding: 10px;
-  width: 50%;
+  width: 44%;
 }
 
 .Intro1{
@@ -174,13 +172,18 @@
 
 .Intro3{
   color: #DFD0B8;
-  padding: 0;
-  margin: 0;
   font-size: 70px;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 10px solid #DFD0B8; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  animation: 
+    typing 2s steps(20, end),
+    blink-caret .5s step-end infinite;
 }
 
-.Intro3 span{
-  animation: taadaa 1s infinite;
+.typewrite > .wrap {
+  border-right: 0.08em solid #fff;
+  background-color: #355063;
 }
 
 .Home-Text{
@@ -330,4 +333,205 @@
   color: white;
 }
 
+/*Skills*/
+.Skills{
+  padding: 10px;
+}
+
+.Skills h1{
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  text-decoration: underline;
+}
+
+.Skills-text{
+  padding: 20px;
+  margin: 0 auto;
+  width: fit-content;
+  display: flex;
+}
+
+.Skills-text1{
+  margin-left: 10px;
+  padding: 5px;
+  border-left: 6px solid #3C5B6F;
+  font-weight: 500;
+  font-size: 30px;
+  color: #DFD0B8;
+}
+
+.Skills-text2{
+  margin-left: 10px;
+  margin-top: 10px;
+  width: auto;
+  color: white;
+}
+
 /*Card*/
+.Card-base{
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Card-container{
+  width: 350px;
+  margin: 10px;
+  border: 4px solid #3C5B6F;
+  border-radius: 10px;
+  text-align: center;
+  height: auto;
+}
+
+.Card-container h2{
+  color: #DFD0B8;
+  font-size: 20px;
+  background-color: #3C5B6F;
+  padding: 5px;
+}
+
+.Card-isi{
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Card{
+  width: 55px;
+  height: auto;
+  background-color: #3C5B6F;
+  color: #DFD0B8;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+  transition: 0.5s ease-in;
+}
+
+.Card i{
+  font-size: 30px;
+}
+
+.Card p{
+  font-size: 12px;
+}
+
+.Project{
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.Project h1{
+  color: white;
+  font-size: 40px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.Project-container{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.Project-card{
+  background-color: #3C5B6F;
+  border-radius: 10px;
+  margin: 10px;
+  width: 300px;
+  height: 360px;
+}
+
+.Project-card img{
+  width: 300px;
+  height: 200px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.Project-text{
+  padding: 10px;
+}
+
+.Project-text a{
+  font-size: 24px;
+  font-weight: 600;
+  color: #DFD0B8;
+}
+
+.Project-text p{
+  color: white;
+  margin-top: 10px;
+}
+
+/*Contact*/
+.Contact{
+  padding: 10px;
+}
+
+.Contact h1{
+  color: white;
+  text-decoration: underline;
+  font-size: 40px;
+  text-align: center;
+}
+
+.Contact p{
+  color: white;
+  margin: 40px;
+  text-align: center;
+}
+
+.Contact-form{
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  background-color: #3C5B6F;
+}
+
+.Contact-form form{
+  padding: 20px;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.Contact-form label{
+  color: white;
+  font-weight: 500;
+  display: block;
+  margin: 5px;
+}
+
+.Contact-form input, textarea{
+  border: none;
+  width: 670px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.Contact-form button{
+  border: 1px solid #DFD0B8;
+  background: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px;
+  font-weight: 600;
+  color: white;
+  display: block;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.Contact-form button:hover{
+  background-color: #153448;
+  transition: 0.5s;
+}
+
