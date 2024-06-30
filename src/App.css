@@ -528,6 +528,7 @@
   display: block;
   cursor: pointer;
   transition: 0.5s;
+  
 }
 
 .Contact-form button:hover{
